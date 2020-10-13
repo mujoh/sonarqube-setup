@@ -16,4 +16,8 @@ jobs:
       inputs:
         SonarCloud: 'SonarCloud'
         organization: 'mhadzimehanovic'
-        scannerMode: 'Other'
+        scannerMode: 'CLI'
+        configMode: 'manual'
+        cliProjectKey: 'mhadzimehanovic_sonartest'
+        cliProjectName: 'sonartest'
+        cliSources: '.'
