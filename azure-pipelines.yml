@@ -10,8 +10,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 jobs:
-  - jobs:
-  - job: analyzeSonar
+- job: analyzeSonar
+  displayName: Analyze Code with Sonar
+  steps:
     - task: SonarCloudPrepare@1
       inputs:
         SonarCloud: 'SonarCloud'
