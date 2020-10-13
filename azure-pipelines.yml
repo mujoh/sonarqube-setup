@@ -21,3 +21,4 @@ jobs:
         cliProjectKey: 'mhadzimehanovic_sonartest'
         cliProjectName: 'sonartest'
         cliSources: '.'
+    - task: SonarCloudAnalyze@1
